@@ -10,4 +10,10 @@ def map(array)
 end
 
 def reduce(array)
+  new=[]
+  i = 0
+  while i < array.count
+    yield(array[i])
+    i += 1
+  end
 end
