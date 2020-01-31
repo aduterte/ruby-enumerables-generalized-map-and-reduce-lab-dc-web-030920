@@ -3,9 +3,10 @@ def map(array)
   new =[]
   i =0
   while i < array.count
-    yield(array[i])
+    new << yield(array[i])
+    i += 1
   end
-
+  new
 end
 
 map(array){|n| n * -1}
