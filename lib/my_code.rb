@@ -8,5 +8,3 @@ def map(array)
   end
   new
 end
-
-map(array){|n| n * -1}
