@@ -1,5 +1,5 @@
 # Your Code Here
-def mapping(array)
+def map(array)
 end
 
 map(array){|n| n * n}
